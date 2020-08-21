@@ -311,7 +311,7 @@ p {
 	border-radius: 10px;
 }
 #skills .skills-info {
-	padding: 30px;
+	padding: 20px;
 	flex-basis: 50%;
 	height: 100%;
 	display: flex;
@@ -322,24 +322,13 @@ p {
 	color: white;
 }
 #skills .skills-info h1 {
-	font-size: 4rem;
+	font-size: 4.5rem;
 	font-weight: 500;
-}
-#skills .skills-info h2 {
-	font-size: 1.8rem;
-	font-weight: 500;
-	margin-top: 10px;
 }
 #skills .skills-info p {
 	color: white;
 }
-#skills .skills-img {
-	flex-basis: 50%;
-	height: 300px;
-	overflow: hidden;
-	position: relative;
-}
-#skills .skills-img:after {
+#skills .skills-info:after {
 	content: '';
 	position: absolute;
 	left: 0;
@@ -349,15 +338,8 @@ p {
 	background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
 	opacity: .7;
 }
-#skills .skills-img img {
-	transition: .3s ease transform;
-}
-#skills .skills-item:hover .project-img img {
-	transform: scale(1.1);
-}
 
 #hobbies .hobbies {
-	flex-direction: column-reverse;
 	text-align: center;
 	max-width: 1200px;
 	margin: 0 auto;
