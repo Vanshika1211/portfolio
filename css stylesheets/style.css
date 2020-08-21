@@ -189,12 +189,7 @@ p {
 #header .hamburger .bar::before {
 	bottom: 8px;
 }
-#header .hamburger.active .bar::before {
-	bottom: 0;
-}
-#header .hamburger.active .bar::after {
-	top: 0;
-}
+
 
 #hero {
 	background-size: cover;
@@ -207,9 +202,8 @@ p {
 #hero .hero-image{
 	max-width:100%;
   height: auto;
-	border-radius: 10px;
 	position: absolute;
-  right: 230px;
+  right: 10%;
   width: 37%;
   padding: 30px;
 	overflow: auto;
@@ -269,15 +263,29 @@ p {
 	animation-delay: 2.5s;
 }
 
-#educational .educational {
+#educational .educational-qualification{
+	background-size: cover;
+	background-position: right top;
+	background-repeat: no-repeat;
+	background-color: rgba(34, 46, 63, 1);
+	position: relative;
+	z-index: 1;
+}
+#educational .edu-top{
 	flex-direction: column;
 	text-align: center;
-	font-size: 15px;
 	max-width: 1500px;
+	font-size:10px;
 	margin: 0 auto;
-	padding: 100px 0;
+	padding: 150px 0;
 	color: white;
-	background-image: linear-gradient( rgba(34, 167, 240, 1), rgba(34, 167, 240, 1));
+}
+#educational .edu-top h1{
+	width: 100%;
+	text-align: center;
+}
+#educational .edu-top p{
+	font-size: 20px;
 }
 #educational .edu-top {
 	max-width: 500px;
@@ -294,96 +302,97 @@ p {
 	z-index: -1;
 }
 
-#skills .skills {
-	text-align: center;
-	max-width: 1200px;
-	margin: 0 auto;
-	padding: 80px 20px;
-	background-image: linear-gradient(rgba(25, 181, 254, 1), rgba(25, 181, 254, 1));
+#skills .skills-container {
+	background-size: cover;
+	background-position: right top;
+	background-repeat: no-repeat;
+	background-color: rgba(44, 62, 80, 1);
+	position: relative;
+	z-index: 1;
 }
-#skills .skills-header h1 {
+#skills .all-skills h1 {
 	width: 100%;
+	text-align: center;
 }
 #skills .all-skills {
-	align-items: center;
-	justify-content: center;
-}
-#skills .skills-item {
-	align-items: center;
-	justify-content: center;
-	width: 80%;
-	margin: 20px auto;
-	overflow: hidden;
-}
-#skills .skills-info {
-	padding: 10px;
-	height: 100%;
-	justify-content: center;
+	flex-direction: column;
+	text-align: center;
+	max-width: 1500px;
+	font-size:10px;
+	margin: 0 auto;
+	padding: 100px 0;
 	color: white;
 }
-#skills .skills-info h1 {
-	font-size: 4.5rem;
-	font-weight: 500;
-}
-#skills .skills-info p {
-	color: white;
-}
-#skills .skills-info:after {
+	#skills .all-skills p{
+		font-size: 20px;
+	}
+	#skills .all-skills h2{
+		font-size: 30px;
+	}
+	#skills .all-skills {
+		max-width: 500px;
+		margin: 0 auto;
+	}
+#skills .all-skilla:after {
 	content: '';
 	position: absolute;
 	left: 0;
 	top: 0;
 	height: 100%;
 	width: 100%;
+	opacity: .9;
+	z-index: -1;
 }
 
-#hobbies .hobbies {
-	text-align: center;
-	max-width: 1200px;
-	margin: 0 auto;
-	padding: 100px 20px;
+#hobbies .hobbies-container {
+	background-size: cover;
+	background-position: right top;
+	background-repeat: no-repeat;
+	background-color: rgba(108, 122, 137, 1);
+	position: relative;
+	z-index: 1;
 }
-#hobbies .hobbies-header h1 {
-	font-size: 4.5rem;
-	font-weight: 500;
+#hobbies .all-hobbies h1 {
+	width: 100%;
+	text-align: center;
 }
 #hobbies .all-hobbies {
-	align-items: center;
-	justify-content: center;
+	flex-direction: column;
+	text-align: center;
+	max-width: 1500px;
+	font-size:10px;
+	margin: 0 auto;
+	padding: 100px 0;
+	color: white;
 }
-#hobbies .hobbies-item {
-	align-items: center;
-	justify-content: center;
-	width: 80%;
-	margin: 20px auto;
-	overflow: hidden;
-}
-#hobbies .hobbies-info {
-	padding: 20px;
-	height: 100%;
-	justify-content: center;
-	color: black;
-}
-#hobbies .hobbies-info h1 {
-	font-size: 4.5rem;
-	font-weight: 500;
-}
-#hobbies .hobbies-info p {
-	color: black;
-}
-#hobbies .hobbies-info:after {
+	#hobbies .all-hobbies p{
+		font-size: 20px;
+	}
+	#hobbies .all-hobbies h2{
+		font-size: 30px;
+	}
+	#hobbies .all-hobbies {
+		max-width: 500px;
+		margin: 0 auto;
+	}
+#hobbies .hobbies-all:after {
 	content: '';
 	position: absolute;
 	left: 0;
 	top: 0;
 	height: 100%;
 	width: 100%;
+	opacity: .9;
+	z-index: -1;
 }
 
-#contact .contact {
+#contact .contact-container {
 	flex-direction: column;
 	max-width: 1200px;
-	margin: 0 auto;
+	margin: 100px auto;
+}
+#contact .contact-container h1{
+	color: black;
 }
 #contact .contact-items {
 	width: 400px;
