@@ -345,37 +345,40 @@ p {
 	margin: 0 auto;
 	padding: 100px 20px;
 }
-#hobbies .col-left {
-	width: 250px;
-	height: 360px;
-}
-#hobbies .col-right {
+#hobbies .hobbies-header h1 {
 	width: 100%;
 }
-#hobbies .col-right h2 {
-	font-size: 1.8rem;
-	font-weight: 500;
-	letter-spacing: .2rem;
-	margin-bottom: 10px;
+#hobbies .all-hobbies {
+	align-items: center;
+	justify-content: center;
 }
-#Hobbies .col-right p {
-	margin-bottom: 20px;
+#hobbies .hobbies-item {
+	align-items: center;
+	justify-content: center;
+	width: 80%;
+	margin: 20px auto;
+	overflow: hidden;
 }
-#hobbies .col-right .cta {
+#hobbies .hobbies-info {
+	padding: 20px;
+	height: 100%;
+	justify-content: center;
 	color: black;
-	margin-bottom: 50px;
-	padding: 10px 20px;
-	font-size: 2rem;
 }
-#hobbies .col-left ::after {
+#hobbies .hobbies-info h1 {
+	font-size: 4.5rem;
+	font-weight: 500;
+}
+#hobbies .hobbies-info p {
+	color: black;
+}
+#hobbies .hobbies-info:after {
 	content: '';
 	position: absolute;
-	left: -33px;
-	top: 19px;
-	height: 98%;
-	width: 98%;
-	border: 7px solid crimson;
-	z-index: -1;
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 100%;
 }
 
 #contact .contact {
