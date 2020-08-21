@@ -24,10 +24,9 @@ img {
 	width: 100%;
 	object-fit: cover;
 	align-content: space-between;
-
 }
 p {
-	color: black;
+	color: white;
 	font-size: 1.6rem;
 	margin-top: 5px;
 	line-height: 2.5rem;
@@ -37,7 +36,7 @@ p {
 .section-title {
 	font-size: 4rem;
 	font-weight: 300;
-	color: black;
+	color: white;
 	margin-bottom: 10px;
 	text-transform: uppercase;
 	letter-spacing: .2rem;
@@ -46,7 +45,6 @@ p {
 .section-title span {
 	color: crimson;
 }
-
 .cta {
 	display: inline-block;
 	padding: 10px 30px;
@@ -61,7 +59,7 @@ p {
 	transition-property: background-color, color;
 }
 .cta:hover {
-	color: white;
+	color: black;
 	background-color: crimson;
 }
 .brand h1 {
@@ -83,7 +81,7 @@ p {
 }
 #header .header {
 	min-height: 8vh;
-	background-color: rgba(31, 30, 30, 0.24);
+	background-color: rgba(31, 30, 30, 0.34);
 	transition: .3s ease background-color;
 }
 #header .nav-bar {
@@ -199,7 +197,7 @@ p {
 }
 
 #hero {
-	background-image: image(C:\Users\HP\Desktop\Portfolio\images\me.jpg);
+	background-image: linear-gradient(rgba(36, 37, 42, 1), rgba(36, 37, 42, 1));
 	background-size: cover;
 	background-position: top center;
 	position: relative;
@@ -212,7 +210,6 @@ p {
 	top: 0;
 	height: 100%;
 	width: 100%;
-	background-color: black;
 	opacity: .7;
 	z-index: -1;
 }
@@ -268,6 +265,8 @@ p {
 	max-width: 1500px;
 	margin: 0 auto;
 	padding: 100px 0;
+	color: white;
+	background-image: linear-gradient( rgba(34, 167, 240, 1), rgba(34, 167, 240, 1));
 }
 #educational .edu-top {
 	max-width: 500px;
@@ -280,45 +279,35 @@ p {
 	top: 0;
 	height: 100%;
 	width: 100%;
-	background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
 	opacity: .9;
 	z-index: -1;
 }
 
 #skills .skills {
-	flex-direction: column;
+	text-align: center;
 	max-width: 1200px;
 	margin: 0 auto;
-	padding: 100px 0;
+	padding: 80px 20px;
+	background-image: linear-gradient(rgba(25, 181, 254, 1), rgba(25, 181, 254, 1));
 }
 #skills .skills-header h1 {
-	margin-bottom: 50px;
+	width: 100%;
 }
 #skills .all-skills {
-	display: flex;
 	align-items: center;
 	justify-content: center;
-	flex-direction: column;
 }
 #skills .skills-item {
-	display: flex;
 	align-items: center;
 	justify-content: center;
-	flex-direction: column;
 	width: 80%;
 	margin: 20px auto;
 	overflow: hidden;
-	border-radius: 10px;
 }
 #skills .skills-info {
-	padding: 20px;
-	flex-basis: 50%;
+	padding: 10px;
 	height: 100%;
-	display: flex;
-	align-items: flex-start;
 	justify-content: center;
-	flex-direction: column;
-	background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
 	color: white;
 }
 #skills .skills-info h1 {
@@ -335,8 +324,6 @@ p {
 	top: 0;
 	height: 100%;
 	width: 100%;
-	background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
-	opacity: .7;
 }
 
 #hobbies .hobbies {
@@ -346,7 +333,8 @@ p {
 	padding: 100px 20px;
 }
 #hobbies .hobbies-header h1 {
-	width: 100%;
+	font-size: 4.5rem;
+	font-weight: 500;
 }
 #hobbies .all-hobbies {
 	align-items: center;
