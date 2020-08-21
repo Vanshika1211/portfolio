@@ -199,7 +199,7 @@ p {
 }
 
 #hero {
-	background-image: url(C:\Users\HP\Desktop\Portfolio\images\me.jpg);
+	background-image: image(C:\Users\HP\Desktop\Portfolio\images\me.jpg);
 	background-size: cover;
 	background-position: top center;
 	position: relative;
@@ -221,11 +221,6 @@ p {
 	margin: 0 auto;
 	padding: 100px 50px;
 	justify-content: flex-start;
-}
-#hero .hero-img{
-	margin-left: 600px;
-  overflow: hidden;
-  text-align: left;
 }
 #hero h1 {
 	display: block;
@@ -269,6 +264,7 @@ p {
 #educational .educational {
 	flex-direction: column;
 	text-align: center;
+	font-size: 15px;
 	max-width: 1500px;
 	margin: 0 auto;
 	padding: 100px 0;
