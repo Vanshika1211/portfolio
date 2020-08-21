@@ -197,11 +197,22 @@ p {
 }
 
 #hero {
-	background-image: linear-gradient(rgba(36, 37, 42, 1), rgba(36, 37, 42, 1));
 	background-size: cover;
-	background-position: top center;
+	background-position: right top;
+	background-repeat: no-repeat;
+	background-color: rgba(36, 37, 42, 1);
 	position: relative;
 	z-index: 1;
+}
+#hero .hero-image{
+	max-width:100%;
+  height: auto;
+	border-radius: 10px;
+	position: absolute;
+  right: 230px;
+  width: 37%;
+  padding: 30px;
+	overflow: auto;
 }
 #hero::after {
 	content: '';
