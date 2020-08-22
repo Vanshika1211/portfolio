@@ -470,8 +470,113 @@ p {
 		font-weight: 500;
 	}
 }
+@media only screen and (max-width:630px){
+	.cta {
+		font-size: 2rem;
+		padding: 5px 40px;
+	}
+	h1.section-title {
+		font-size: 4rem;
+	}
+	#header .hamburger {
+		display: inline;
+	}
+	#header .nav-list ul {
+		position: initial;
+		display: inline;
+		height: auto;
+		width: fit-content;
+		background-color: transparent;
+	}
+	#header .nav-list ul li {
+		display: inline-block;
+	}
+	#header .nav-list ul li a {
+		font-size: 10px;
+	}
+	#header .nav-list ul a:after {
+		display: inline;
+	}
+	#hero .brand h1 {
+		font-size: 4rem;
+	}
+	#hero .hero-image{
+		max-width:100%;
+		height: auto;
+		position: absolute;
+		right: 6%;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width: 30%;
+		padding: 20px;
+		overflow: auto;
+	}
+	#educational .edu-top .section-title {
+		flex-basis: 45%;
+		margin: 2.5%;
+	}
+	#skills .skill-item {
+		flex-direction: row;
+	}
+	#skills .skills-item:nth-child(even) {
+		flex-direction: row-reverse;
+	}
+	#skills .skills-item {
+		height: 350px;
+		margin: 0;
+		width: 100%;
+		border-radius: 0;
+	}
+	#skills .all-skills .skills-info {
+		height: 100%;
+	}
+	#skills .all-skills .skills.img {
+		height: 100%;
+	}
+	#hobbies .hobbies-container {
+		flex-direction: row;
+	}
+	#hobbies .all-hobbies {
+		text-align: center;
+		padding: 25px;
+	}
+	#hobbies .all-hobbies h1 {
+		text-align: center;
+	}
 
-@media only screen and (max-width:767px){
+	#contact .contact-container {
+		flex-direction: column;
+		padding: 75px 0;
+		align-items: center;
+		justify-content: center;
+		min-width: 18vh;
+	}
+	#contact .contact-items {
+		width: 100%;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-evenly;
+		margin: 0;
+	}
+	#contact .contact-item {
+		width: 30%;
+		margin: 0;
+		flex-direction: row;
+	}
+	#contact .contact-item .icon img {
+		object-fit: contain;
+		width: 100%
+		height: 100%
+	}
+	#contact .contact-item .contact-info {
+		width: 100%;
+		text-align: center;
+		padding-left: 15px;
+		font-size: 3px;
+	}
+}
+@media only screen and (min-width:630px) and (max-width:768px){
 	.cta {
 		font-size: 2.5rem;
 		padding: 10px 50px;
@@ -506,6 +611,9 @@ p {
 		height: auto;
 		position: absolute;
 		right: 6%;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
 		width: 44%;
 		padding: 30px;
 		overflow: auto;
@@ -571,7 +679,7 @@ p {
 		width: 100%;
 		text-align: center;
 		padding-left: 20px;
-		font-size: 10px;
+		font-size: 5px;
 	}
 }
 
@@ -628,38 +736,37 @@ p {
 	#hobbies .all-hobbies h1 {
 		text-align: center;
 	}
-	#contact .contact-container {
-		flex-direction: column;
-		padding: 100px 0;
-		align-items: center;
-		justify-content: center;
-		min-width: 20vh;
-	}
-	#contact .contact-items {
-		width: 100%;
-		display: flex;
-		flex-direction: row;
-		justify-content: space-evenly;
-		margin: 0;
-	}
-	#contact .contact-item {
-		width: 30%;
-		margin: 0;
-		flex-direction: row;
-	}
-	#contact .contact-item .icon {
-		height: 100px;
-		width: 100px;
-	}
-	#contact .contact-item .icon img {
-		object-fit: contain;
-	}
-	#contact .contact-item .contact-info {
-		width: 100%;
-		text-align: left;
-		padding-left: 20px;
-		font-size: 15px;
-	}
+	#contact .contact {
+			flex-direction: column;
+			padding: 100px 0;
+			align-items: center;
+			justify-content: center;
+			min-width: 20vh;
+		}
+		#contact .contact-items {
+			width: 100%;
+			display: flex;
+			flex-direction: row;
+			justify-content: space-evenly;
+			margin: 0;
+		}
+		#contact .contact-item {
+			width: 30%;
+			margin: 0;
+			flex-direction: row;
+		}
+		#contact .contact-item .icon {
+			height: 100px;
+			width: 100px;
+		}
+		#contact .contact-item .icon img {
+			object-fit: contain;
+		}
+		#contact .contact-item .contact-info {
+			width: 100%;
+			text-align: left;
+			padding-left: 20px;
+		}
 }
 
 @media only screen and (min-width: 1200px) {
